@@ -1,0 +1,50 @@
+header{
+    width: 100%;
+    margin-bottom: 300px;
+    & nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 50px;
+        & a.logo-container{
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+    
+            & img {
+                height: 45px;
+            }
+            
+            & p{
+                margin: 0px;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.85);
+                font-size: 30px;
+                padding-left: 10px;
+             }
+            & p:hover{
+                color: white;
+            }
+        }
+
+        & ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+
+            & li{
+                text-transform: uppercase;
+                padding: 10px 20px;
+            }
+
+            & li:hover{
+                cursor: pointer;
+                color: white;
+            }
+        }
+    
+    }
+}
